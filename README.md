@@ -9,10 +9,9 @@ Welcome to **NumCrafters**, a collection of numerical methods implemented in C. 
 - **Description**: This program implements the **Bisection Method** for solving nonlinear equations. It's used to find the root of a function where the function changes sign over a specified interval.
 
 ### 2. False Position Method
-- **File**: `falsePositionMethod.c` *(if applicable)*
+- **File**: `bisection_falsePositionMethod.c` 
 - **Description**: Another method used to find roots of nonlinear equations. The False Position Method is similar to the Bisection Method, but it improves the approximation by using a secant line.
-
-(You can add other methods later as you implement them.)
+>Note: Both Bisection and False Position Methods are implemented on the same file as both have same working except the approximation formula...
 
 ## Requirements
 - **Compiler**: GCC or any other C compiler

@@ -21,6 +21,10 @@ Welcome to **NumCrafters**, a collection of numerical methods implemented in C. 
 - **File**: `SecantMethod.c`
 - **Description**: The Secant method is a numerical technique to find roots without requiring the derivative. It uses two initial guesses and a secant line to approximate the root iteratively.
 
+### 5. Lagrange Interpolation
+- **File**: `lagrangeInterpolation.c`
+- **Description**: Lagrange Interpolation is a method of estimating values between known data points by constructing a polynomial that passes through all given points. It uses Lagrange basis polynomials to ensure that the resulting curve exactly fits the data. This technique is especially useful in curve fitting and numerical analysis.
+
 ## Requirements
 - **Compiler**: GCC or any other C compiler
 - **Operating System**: Compatible with any OS that supports C programming (Linux, Windows, macOS)

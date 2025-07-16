@@ -25,6 +25,34 @@ Welcome to **NumCrafters**, a collection of numerical methods implemented in C. 
 - **File**: `lagrangeInterpolation.c`
 - **Description**: Lagrange Interpolation is a method of estimating values between known data points by constructing a polynomial that passes through all given points. It uses Lagrange basis polynomials to ensure that the resulting curve exactly fits the data. This technique is especially useful in curve fitting and numerical analysis.
 
+### 6. Newton-Cotes Formula
+- **File**: `General_Quadrature_Formula.c`
+- **Description**: Implements the Newton-Cotes Quadrature formula for numerical integration. It approximates the integral of a function using equally spaced points and weights determined by the method.
+
+### 7. Romberg's Integration
+- **File**: `RombergIntegration.c`
+- **Description**: Romberg's Method is an advanced numerical integration technique that builds upon the Trapezoidal Rule by applying Richardson extrapolation. It successively refines estimates to improve accuracy and convergence speed.
+
+### 8. Linear Regression for Curve Fitting
+- **File**: `Linear_Regression_curveFitting.c`
+- **Description**: This program implements simple linear regression to fit a straight line through a set of data points. It minimizes the sum of squared errors between the data and the regression line.
+
+### 9. Logarithmic Regression for Curve Fitting
+- **File**: `RegressionForCurveFitting_logarithmic.c`
+- **Description**: Implements regression based on a logarithmic model. This is useful when the data trend follows a logarithmic curve, helping in estimating parameters for functions like `y = a + b*log(x)`.
+
+### 10. Solution of ODE - RK1, RK2, and RK4
+- **File**: `Solution_ODE`
+- **Description**: This program solves ordinary differential equations (ODEs) using Runge-Kutta methods of first (Euler's method), second, and fourth order. RK4 is widely used for its balance between accuracy and computational efficiency.
+
+### 11. Dominant Eigenvalue by Power Method
+- **File**: `eigen_value.c`
+- **Description**: `Implements the Power Method to estimate the dominant (largest in magnitude) eigenvalue of a square matrix. This method is useful for large matrices where computing all eigenvalues is computationally expensive.
+
+### 12. Solution of Linear Algebraic Equations - Gauss-Jacobi and Gauss-Seidel
+- **File**: `solution_of_LinearAlgebraicEquation.c`
+- **Description**: This program solves systems of linear equations using two iterative techniques: Gauss-Jacobi and Gauss-Seidel. Both methods are useful for large sparse systems and provide convergence under certain conditions.
+
 ## Requirements
 - **Compiler**: GCC or any other C compiler
 - **Operating System**: Compatible with any OS that supports C programming (Linux, Windows, macOS)
